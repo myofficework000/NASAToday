@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NASAtoday</string>
+    <string name="apod_cd">picture of the day</string>
+    <string name="pick_a_date">Pick a date</string>
+    <string name="attribution">powered by api.nasa.gov</string>
+    <string name="developer">developed by Abhishek Pathak</string>
+    <string name="tagline">Discover Space</string>
+</resources>
