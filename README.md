@@ -1,12 +1,5 @@
-# Astronomy Picture of the Day
+# Astronomy Picture of the Day by Abhishek Pathak
 
-## Build Instructions
-
-Add an NASA Developer API key in `~/.gradle/gradle.properties` (Linux) with variable name `NasaApodDevKey`.
-
-	~/.gradle/gradle.properties
-	NasaApodDevKey="YOUR API KEY"
-	
 ## Notes
 
  * Unsuccessful responses like errors are discarded for now. For example, the app will allow you 
@@ -20,24 +13,19 @@ Add an NASA Developer API key in `~/.gradle/gradle.properties` (Linux) with vari
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/sudhirkhanger/apod/master/art/device-2019-08-01-093128.png" width="50%"><img src="https://raw.githubusercontent.com/sudhirkhanger/apod/master/art/device-2019-08-01-093215.png" width="50%">
+<img src="https://github.com/cheetahmail007/NASAToday/blob/master/screenshots/1.png" width="50%"><img src="https://github.com/cheetahmail007/NASAToday/blob/master/screenshots/2.png" width="50%">
+<img src="https://github.com/cheetahmail007/NASAToday/blob/master/screenshots/3.png" width="50%"><img src="https://github.com/cheetahmail007/NASAToday/blob/master/screenshots/4.png" width="50%">
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/sudhirkhanger/apod/master/art/device-2019-08-01-093630.png">
+## Architecture
+This app uses [***MVVM (Model View View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.
+
+![](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
+
+
+### Contact - Let's become friend
+- [Github](https://github.com/cheetahmail007)
+- [Linkedin](https://www.linkedin.com/in/abhishek-pathak-b735018b/)
+
+<p>
+Don't forget to star ⭐ the repo it motivates me to share more open source
 </p>
-	
-## License
-
-    Copyright 2019 Sudhir Khanger
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
